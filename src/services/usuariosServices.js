@@ -12,7 +12,9 @@ const crear = async (email, username, clave, foto)=>{
         username: username,
         clave: clave,
         foto: foto
-    }})
+        }
+    })
+    return userNew
 }
 
-module.exports = listar
+module.exports = listar, crear

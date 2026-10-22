@@ -21,3 +21,4 @@ npx prisma migrate dev --name inicio
 
 # Genera el cliente orm
 npx prisma generate
+

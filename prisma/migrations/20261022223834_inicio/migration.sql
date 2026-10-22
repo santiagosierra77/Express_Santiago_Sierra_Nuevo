@@ -6,7 +6,7 @@ CREATE TABLE "Usuarios" (
     "clave" TEXT NOT NULL,
     "foto" TEXT NOT NULL,
 
-    CONSTRAINT "Usuario_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "Usuarios_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -20,4 +20,4 @@ CREATE TABLE "Productos" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Usuario_email_key" ON "Usuario"("email");
+CREATE UNIQUE INDEX "Usuarios_email_key" ON "Usuarios"("email");
